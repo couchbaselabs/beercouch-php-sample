@@ -1,0 +1,9 @@
+<h1>{{doc.name}}</h1>
+<p>{{doc.description}}</p>
+
+<h2>Alle Attribute</h2>
+<ul>
+{% for key,value in doc %}
+	<li>{{key}}: {{value}}</li>
+{% endfor %}
+</ul>

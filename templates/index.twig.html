@@ -1,0 +1,5 @@
+<ol>
+{% for doc in docs %}
+	<li>{{doc.name}} ({{doc.type}}) <a href="/beercouch/show/{{doc.id}}">[Show]</a></li>
+{% endfor %}
+</ol>
